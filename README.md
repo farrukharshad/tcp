@@ -11,7 +11,7 @@ Suppose there is a modified file in your current working directory which is say 
 then you go to `~/Downloads` to compare it with the original file
 
 `cd ~/Download` <br/>
-`diff original.file tcp -c/modified.file` <br/>
+`diff original.file tcp/modified.file` <br/>
 
 In short wherever you have a lengthy path which you want to reuse in another terminal, you can save this path with 
 
