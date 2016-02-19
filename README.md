@@ -4,11 +4,11 @@ It is a very simple utility to copy the path of your current working directory
 which you can get in another terminal / script or script. 
 
 Use Case # 1
-Suppose there is a modified file in your current working directory which is say ~/a/b/c/d/e/modified.file, that you want to compare with the original file which you have downloaded at ~/Downloads. In your current workind directory you will invoke
+Suppose there is a modified file in your current working directory which is say `~/a/b/c/d/e/modified.file`, that you want to compare with the original file which you have downloaded at `~/Downloads`. In your current workind directory you will invoke
 
 `tcp -c`
 
-then you go to ~/Downloads to compare it with the original file
+then you go to `~/Downloads` to compare it with the original file
 
 `cd ~/Download` <br/>
 `diff original.file tcp -c/modified.file` <br/>
